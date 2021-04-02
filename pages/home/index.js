@@ -8,11 +8,15 @@ export default function Home() {
     <>
       <Title>HTTP Monkey</Title>
       <Container>
-        <Link href="/12" passHref>
+        <Link href="/45" passHref>
           <Item>Macaquinho com code 45</Item>
         </Link>
-        <Item>Macaquinho com code 41</Item>
-        <Item>Macaquinho com code 42</Item>
+        <Link href="/41" passHref>
+          <Item>Macaquinho com code 41</Item>
+        </Link>
+        <Link href="/42" passHref>
+          <Item>Macaquinho com code 42</Item>
+        </Link>
       </Container>
     </>
   );

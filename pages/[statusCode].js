@@ -1,7 +1,12 @@
 import React from "react";
 
 const StatusCode = ({ statusCode }) => {
-  return <div>{statusCode}</div>;
+  return (
+    <div>
+      Bem vindo, nesta tela você verá todas as informações relativas ao código
+      HTTP {statusCode}
+    </div>
+  );
 };
 
 export async function getServerSideProps(context) {
