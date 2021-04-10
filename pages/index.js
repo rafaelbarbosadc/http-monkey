@@ -1,4 +1,5 @@
 import Home from '../src/pages/home';
+import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
 
 export async function getServerSideProps(context) {
   const { req, query, res, asPath, pathname } = context;
