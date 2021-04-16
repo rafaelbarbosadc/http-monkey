@@ -1,10 +1,10 @@
 import styled from 'styled-components';
 
-export const PageBody = styled.div`
-    background-color:#EEE;
-    min-height: 100%;
-` 
-
-export const PageContent = styled.div`
-    background-color:#FC0;
-`
+export const Content = styled.article`
+  background-color: #ffffff;
+  min-height: 100%;
+`;
+export const Body = styled.div`
+  display: flex;
+  flex-direction: column;
+`;

@@ -1,5 +1,6 @@
-import Home from '../src/pages/home';
 import 'antd/dist/antd.css'; // or 'antd/dist/antd.less'
+import Home from '../src/pages/home';
+import Layout from '../src/components/Layout';
 
 export async function getServerSideProps(context) {
   const { req, query, res, asPath, pathname } = context;
@@ -15,5 +16,9 @@ export async function getServerSideProps(context) {
 }
 
 export default function Index({ database }) {
-  return <Home database={database} />;
+  return (
+    <Layout title="HTTP Monkey">
+      <Home database={database} />
+    </Layout>
+  );
 }
