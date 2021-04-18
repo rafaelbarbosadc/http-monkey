@@ -1,19 +1,15 @@
-import Footer from "./Footer"
-import Header from "./Header"
-import { PageBody, PageContent } from "./style"
+import Footer from './Footer';
+import Header from './Header';
+import { Body, Content } from './style';
 
-
-const Layout = ({children}) => {
-
-    return (
-        <PageBody>
-            <Header />
-            <PageContent>
-                {children}
-            </PageContent>
-            <Footer />
-        </PageBody>
-    )
-}
+const Layout = ({ children, title }) => {
+  return (
+    <Body>
+      <Header title={title} />
+      <Content>{children}</Content>
+      {/* <Footer /> */}
+    </Body>
+  );
+};
 
 export default Layout;
