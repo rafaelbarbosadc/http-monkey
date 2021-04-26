@@ -5,39 +5,48 @@
   },
   {
     "code": 200,
-    "label": "OK"
+    "label": "OK",
+    "gif": "/images/200.gif"
   },
   {
     "code": 201,
-    "label": "Created"
+    "label": "Created",
+    "gif": "/images/201.gif"
   },
   {
     "code": 202,
-    "label": "Accepted"
+    "label": "Accepted",
+    "gif": "/images/202.gif"
   },
   {
     "code": 203,
-    "label": "Non-Authoritative Information"
+    "label": "Non-Authoritative Information",
+    "gif": "/images/203.gif"
   },
   {
     "code": 204,
-    "label": "No Content"
+    "label": "No Content",
+    "gif": "/images/204.gif"
   },
   {
     "code": 206,
-    "label": "Partial Content"
+    "label": "Partial Content",
+    "gif": "/images/206.gif"
   },
   {
     "code": 207,
-    "label": "Multi-status"
+    "label": "Multi-status",
+    "gif": "/images/207.gif"
   },
   {
     "code": 208,
-    "label": "Already Reported"
+    "label": "Already Reported",
+    "gif": "/images/208.gif"
   },
   {
     "code": 226,
-    "label": "IM Used"
+    "label": "IM Used",
+    "gif": "/images/226.gif"
   },
   {
     "code": 300,

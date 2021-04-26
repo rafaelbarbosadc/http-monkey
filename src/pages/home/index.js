@@ -1,18 +1,18 @@
 import styled from 'styled-components';
-
-import Item from '../../components/Item';
-import { Title } from '../../components/Title/styles';
 import { Row, Col } from 'antd';
+
+import { Title } from '../../components/Title/styles';
 import StatusCard from '../../components/StatusCard';
+
 export default function Home({ database }) {
   return (
     <>
       <Title>HTTP Monkey</Title>
       <Container>
         <HomeRow gutter={[16, 16]}>
-          {database.map(({ code, label }) => (
+          {database.map(({ code, label, gif }) => (
             <Col xs={24} sm={24} md={12} lg={6} xl={6}>
-              <StatusCard key={code} code={code} label={label} />
+              <StatusCard key={code} code={code} label={label} gif={gif} />
             </Col>
           ))}
         </HomeRow>
